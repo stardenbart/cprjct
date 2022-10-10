@@ -1,0 +1,79 @@
+#styling {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+#styling_top {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+#askus-main {
+  width: 31rem;
+  margin: 9rem auto 0px auto;
+  padding: 7.5rem auto 7.5rem auto;
+  border: solid rgb(255, 255, 255);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+
+#askus {
+  color: rgb(48, 45, 45);
+  font-size: 2.5rem;
+}
+
+#askus-span {
+  color: rgb(32, 192, 184);
+}
+
+#f_search {
+  text-align: center;
+  margin: 1.25rem auto;
+}
+
+#search {
+  width: 18.75rem;
+}
+
+#submit,
+#reset {
+  color: rgb(48, 45, 45);
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 48rem) {
+  #main-header nav a {
+    display: none;
+  }
+
+  main h1 {
+    font-size: 1.5rem;
+  }
+
+  #latest-products ul {
+    grid-template-columns: 100%;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  #askus-main {
+    width: 75%;
+    height: 12rem;
+  }
+
+  #search {
+    width: 15rem;
+    margin-bottom: 1.25rem;
+  }
+}
